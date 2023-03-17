@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFLIE
+gcc -c $CFLIE -o "${CFILE%.*}.o"
